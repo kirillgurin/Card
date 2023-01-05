@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kirillgurin.MainController">
+   <children>
+      <ListView fx:id="listViewCategories" layoutX="34.0" layoutY="25.0" prefHeight="200.0" prefWidth="200.0" />
+      <ListView fx:id="listViewCards" layoutX="300.0" layoutY="25.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button layoutX="72.0" layoutY="239.0" mnemonicParsing="false" onAction="#buttonChooseCategory" prefHeight="25.0" prefWidth="121.0" text="Choose Category" />
+      <Button layoutX="225.0" layoutY="291.0" mnemonicParsing="false" onAction="#buttonClose" prefHeight="25.0" prefWidth="85.0" text="Close" />
+      <Button layoutX="72.0" layoutY="277.0" mnemonicParsing="false" onAction="#buttonAddCategory" prefHeight="25.0" prefWidth="121.0" text="Add Category" />
+      <Button layoutX="72.0" layoutY="317.0" mnemonicParsing="false" onAction="#buttonChangeCategory" prefHeight="25.0" prefWidth="121.0" text="Update Category" />
+      <Button layoutX="71.0" layoutY="354.0" mnemonicParsing="false" onAction="#buttonDeleteCategory" prefHeight="25.0" prefWidth="121.0" text="Delete Category" />
+      <Button layoutX="339.0" layoutY="239.0" mnemonicParsing="false" onAction="#buttonAddCard" prefHeight="25.0" prefWidth="121.0" text="Add Card" />
+      <Button layoutX="340.0" layoutY="291.0" mnemonicParsing="false" onAction="#buttonUpdateCard" prefHeight="25.0" prefWidth="121.0" text="Update Card" />
+      <Button layoutX="340.0" layoutY="341.0" mnemonicParsing="false" onAction="#buttonDeleteCard" prefHeight="25.0" prefWidth="121.0" text="Delete Card" />
+      <Button layoutX="224.0" layoutY="239.0" mnemonicParsing="false" onAction="#buttonCloseForm" prefHeight="25.0" prefWidth="85.0" text="Close Form" />
+   </children>
+</AnchorPane>

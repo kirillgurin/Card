@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: com.kirillgurin.Program
+Class-Path: jackson-core-2.13.3.jar javafx-base-13-win.jar javafx-graphi
+ cs-13-win.jar javafx-controls-13.jar jackson-databind-2.13.3.jar javafx
+ -controls-13-win.jar javafx-fxml-13-win.jar javafx-graphics-13.jar jack
+ son-annotations-2.13.3.jar javafx-base-13.jar javafx-fxml-13.jar
+

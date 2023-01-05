@@ -1,0 +1,3 @@
+# Project exclude paths
+/CardClientJavaFxxApp/target/
+/CardHibernate/target/

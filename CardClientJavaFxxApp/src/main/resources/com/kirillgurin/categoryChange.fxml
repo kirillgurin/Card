@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kirillgurin.CategoryChangeCotroller">
+   <children>
+      <Label layoutX="94.0" layoutY="30.0" text="Name category:" />
+      <TextField fx:id="textFieldNameCategory" layoutX="201.0" layoutY="26.0" />
+      <Button layoutX="120.0" layoutY="114.0" mnemonicParsing="false" onAction="#buttonSave" text="Save" />
+      <Button layoutX="300.0" layoutY="114.0" mnemonicParsing="false" onAction="#buttonClose" text="Close" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CardHibernate:war">
+    <output-path>$PROJECT_DIR$/CardHibernate/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>CardHibernate</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="CardHibernate-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="CardHibernate:war exploded" />
+    </root>
+  </artifact>
+</component>
